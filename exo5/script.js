@@ -4,6 +4,10 @@ for (var i = 0; i < contact.length; i++) {
   console.log(i + 1 + " tour de boucle");
 }
 
+for (var i = 0; i <= contact.length - 1; i++) {
+  console.log(i + 1 + " tour de boucle " + contact[i]);
+}
+
 var playlist = [
   "Katy Perry - Chained To The Rhythm",
   "Ed Sheeran - Shape of You",
